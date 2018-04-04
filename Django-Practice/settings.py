@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'ProTwo.urls'
+ROOT_URLCONF = 'Django-Practice.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ProTwo.wsgi.application'
+WSGI_APPLICATION = 'Django-Practice.wsgi.application'
 
 
 # Database

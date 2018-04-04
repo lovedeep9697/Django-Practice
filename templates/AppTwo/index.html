@@ -1,14 +1,43 @@
 <!DOCTYPE HTML>
+{% load staticfiles %}
 <html> 
     <head>
-	<title>AppTwo Page </title>
+	<title>Django</title>
     </head>
 
 
 
     <body>
-    <h1> Hii i am in index.html </h1>
-    {{insert_me}}
+    	<h2> Names of Webpages:  </h2>
+    	<div class= "webpage_names">
+        {% if names %}
+
+    		<table>
+    			<thead>
+                    Webpage Name
+                </thead>
+
+
+    			{% for n in names %}
+    			<tr>
+    				<td>{{n.name}}</td>
+    			</tr>
+    			{% endfor %}
+
+
+
+
+    		</table>
+    	{% else %}
+        <p>No name</p>
+        {% endif %}
+
+
+
+
+
+    	</div>
+    
 
     </body>
 
