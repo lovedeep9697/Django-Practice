@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from AppTwo.models import Topic,Webpage
+# from AppTwo.models import Topic,Webpage
 from AppTwo import forms
 
 # Create your views here.
