@@ -23,6 +23,6 @@ class UserForm(forms.ModelForm):
 
 class UserProfileInfo(forms.ModelForm):
 	class Meta():
-		model = UserProfileInfo
+		model = UserProfileInfo	
 		fields = ('portfolio_site', 'profile_pic')
 
